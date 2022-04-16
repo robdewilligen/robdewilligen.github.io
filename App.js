@@ -1,6 +1,8 @@
 let mobilenet;
 let video;
 let label = '';
+let bee = 0;
+let butterfly = 0;
 
 function modelReady() {
     console.log('Model is ready!!!');
@@ -16,6 +18,18 @@ function gotResults(error, results) {
     mobilenet.predict(gotResults);
     let text = document.getElementById('text');
     text.innerText = results[0].className
+
+        if(results[0].className == "bee") {
+            bee++;
+            let BeeVar = document.getElementById('bee');
+            BeeVar.innerText = "Bee's = " + bee;
+            console.log("bee++")
+        } else if(results[0].className == "butterfly") {
+            butterfly++;
+            let ButterflyVar = document.getElementById('butterfly')
+            ButterflyVar.innerText = "Butterflies = " + butterfly; 
+            console.log("butterfly++")
+        }
     }
 }
 
@@ -25,6 +39,8 @@ function setup() {
     video.hide();
     background(0);
     mobilenet = ml5.imageClassifier('MobileNet', video, modelReady);
+    let title = document.getElementById('title')
+    title.innerText = "Live View";
 }
 
 function draw() {

@@ -1,3 +1,14 @@
-.body {
-    
+.box {
+    height: 100%;
+    width: 100%;
+    Background-color:rgb(172, 172, 172);
+}
+
+.line {
+    height: 25px;
+    width: 100%;
+    background-color:white;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 1px;
 }

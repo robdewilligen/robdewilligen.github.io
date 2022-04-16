@@ -4,6 +4,8 @@ ScreenCast Opdracht A: https://youtu.be/pdIiE6lMTOY
 
 ScreenCast Opdracht B: -
 
+Github Pages:https://robdewilligen.github.io/
+
 ## Stap 1 Concept
 
 Omschrijf kort jouw concept in je inleverdocument:
@@ -82,7 +84,7 @@ In je inleverdocument plaats je een korte screencast van de werking van je eindp
 - Wat voor accuracy vind jij goed genoeg voor jouw toepassing?
 - Zijn er privacy concerns in je app? Denk aan het opslaan / versturen van gevoelige data.
 
-### Refectie eindproduct
+### Reflectie eindproduct
 
 - Wat voor feedback heb je gekregen van je TLE team?
 - Is jouw werk bruikbaar voor het eindproduct van TLE? Ga je er aan doorwerken?
@@ -92,5 +94,3 @@ Waarom wel of niet?
 had? Waarom wel of niet?
 - Is je app zodanig goed dat eindgebruikers er zonder verdere instructies mee uit de
 voeten kunnen? Waarom wel of niet?
-
-
