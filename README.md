@@ -2,7 +2,7 @@
 
 ScreenCast Opdracht A: https://youtu.be/pdIiE6lMTOY 
 
-ScreenCast Opdracht B: -
+ScreenCast Opdracht B: https://youtu.be/37bfrrJC0dw
 
 Github Pages:https://robdewilligen.github.io/
 
@@ -94,3 +94,23 @@ Waarom wel of niet?
 had? Waarom wel of niet?
 - Is je app zodanig goed dat eindgebruikers er zonder verdere instructies mee uit de
 voeten kunnen? Waarom wel of niet?
+
+
+### Reflectie 
+Het algoritme die ik gebruikt heb heeft zeker geholpen voor dit project. Zonder zou het ook niet mogelijk zijn tenzij ik zelf een AI ervoor zou maken. 
+
+Ook heb ik hiermee genoeg data kunnen verzamelen zodat deze opdracht gebruikt kan worden in het project van TLE.
+
+Ik ben tevreden met de technische kant van de opdracht, maar later ga ik de opmaak nog verbeteren als ik hier een beter ontwerp voor heb. Het werkt zoals ik had gehoopt dus hij zou zo het project in kunnen. 
+
+Voor dit project gebruik ik een pre-trained model en dus wordt het niet zelf nog getrained. Dit omdat het niet nodig is aangezien er al een erg goed model beschikbaar is. 
+
+Het model heeft niet echt een voorkeur aangezien hij dieren herkent. Ik ben tevreden met de accuracy aangezien hij redelijk snel herkent wat er te zien is. Er wordt verder geen gebruik gemaakt van gevoelige gegevens dus hier hoef ik mij ook geen zorgen over te maken.
+
+## Gekregen Feedback
+Amy: De recognition werkt niet 100% want hij zei wesp bij een bij, maar dit veranderde wel naar bij. Wel chill dat die werkt. Maar vraagje, hoe zit het met tellen? Doet hij dit per een paar seconden of anders? Misschien nog iets om over na te denken.
+
+Mariska: leuk dat het werkt, maar misschien kan je nog een periode maken waarin hij wel of niet meet, want nu telt hij wel erg veel. 
+
+Wat mee te nemen voor verdere uitwerking: 
+Delay maken voor het meten van het beeld, zodat hij niet vaker een dier meetelt die al geweest is.
