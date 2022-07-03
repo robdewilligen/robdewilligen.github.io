@@ -25,9 +25,9 @@ function gotResults(error, results) {
         } else { if (results[0].className == "red fox, Vulpes vulpes") {
             let infoVar = document.getElementById('info');
             infoVar.innerText = "De vos is een lid van de hondachtigen, maar heeft ongeveer de grote van een huiskat. De vos heeft over het algemeen een roodbruine vacht, maar kan ook beige tot helderrood zijn, of zilverkleurig tot zwart. Buiten dit hebben ze vaak ook een lange en pluizige staart. ";
-        } else {if (results[0].className == "") {
+        } else {if (results[0].className == "porcupine, hedgehog") {
             let infoVar = document.getElementById('info');
-            infoVar.innerText = "Egels zijn een belangrijk onderdeel van de kringloop. Ze eten slakken en andere insecten die vaak een plaag vormen in de tuin. Als we de tuin natuurlijker maken, herstelt de biodiversiteit."
+            infoVar.innerText = "Egels zijn een belangrijk onderdeel van de kringloop. Ze eten slakken en andere insecten die vaak een plaag vormen in de tuin. Als we de tuin natuurlijker maken, herstelt de biodiversiteit.";
         }}
     } 
     }

@@ -24,7 +24,7 @@ Voor TLE 3&4 gaan ik en mijn groepje KunstStroom uitwerken.
 Kunststroom is een kunstwerk wat we op de lijnbaan willen plaatsen, dit kunstwerk wekt stroom op met zonnepanelen. Deze opgewekte stroom kan vervolgens weer gebruikt worden om 's avonds ledlampjes aan te zetten (of overdag, dit is nog ter bespreking) of om overdag je telefoon op te laden. Ook zal er een afdakje zijn voor als het regent. De doelgroep waar we ons vooral op focussen zijn mannen die mee moeten met hun vriendin om te gaan shoppen. Door Kunststroom kunnen deze mensen buiten wachten en hun telefoon opladen terwijl ze wachten. Hierdoor hoeven ze niet steeds overal mee naar binnen. Ook willen we extra groen toevoegen zodat er meer biodiversiteit terugkomt naar de stad. Dit willen we gaan monitoren met Artificiele Intelligentie, de AI moet bijhouden of er meer of minder bijtjes, vlinders, etc. komen. 
 
 ### Overig
-Voor dit project wil ik het onderdeel gaan maken wat d.m.v. een camera of webcam kan monitoren of de biodiversiteit toeneemt in de buurt van het kunstwerk. Ik wil hiervoor gebruik maken van ML5 met een image classifier die op een tijdstip(of periode) op de dag bij houdt hoeveel dieren er in de buurt zijn. dit wordt vervolgens weer genoteerd. De uiteindelijke vorm wordt een website waar alles ook weer terug te zien en vinden is. De eindgebruiker die het product gaat gebruiken zal de beheerder zijn van het kunstwerk. Een alternatief, is een app die weergegeven wordt op een monitor bij het kunstwerk geplaatst wordt, zodat iedereen inzicht krijgt op de verbetering die het kunstwerk boekt.
+Voor dit project wil ik het onderdeel gaan maken wat d.m.v. een camera of webcam de omgeving kan bekijken en meer informatie over de dieren kan geven aan de bezoekers. Ik wil hiervoor gebruik maken van ML5 met een image classifier die dit weergeeft. De uiteindelijke vorm wordt een website waar alles ook weer terug te zien en vinden is. De eindgebruiker die het product gaat gebruiken zullen de bezoekers zijn van het kunstwerk. Een alternatief, is een app die weergegeven wordt op een monitor bij het kunstwerk geplaatst wordt, zodat iedereen informatie kan krijgen op een makkelijke manier
 ___
 
 ## Stap 2 Prototype
@@ -43,7 +43,7 @@ Je code staat in GitHub classroom. Je werkende prototype staat óók live online
 Je inleverdocument bevat een screencast van, en een link naar, je online prototype.
 ___
 ### Prototype
-Het prototype wordt gemaakt met de image classifier met behulp van de webcam. Op een website is het beeld te zien en wordt vermeld welk dier er te zien is in een bepaalde periode. Later wil ik dit laten optellen en weergeven.
+Het prototype wordt gemaakt met de image classifier met behulp van de webcam. Op een website is het beeld te zien en wordt vermeld welk dier er te zien is in een bepaalde periode. Later wil ik meer dieren toevoegen en meer informatie
 ___
 
 ### Bonuspunt
