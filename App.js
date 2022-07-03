@@ -20,16 +20,16 @@ function gotResults(error, results) {
     text.innerText = results[0].className
 
         if(results[0].className == "bee") {
-            bee++;
-            let BeeVar = document.getElementById('bee');
-            BeeVar.innerText = "Bee's = " + bee;
-            console.log("bee++")
-        } else if(results[0].className == "butterfly") {
-            butterfly++;
-            let ButterflyVar = document.getElementById('butterfly')
-            ButterflyVar.innerText = "Butterflies = " + butterfly; 
-            console.log("butterfly++")
-        }
+            let infoVar = document.getElementById('info');
+            infoVar.innerText = "De rosse metselbij is een vrij algemene soort bij. De bij is het best te herkennen aan het harige lijf. Het metselen in de naam komt omdat de bij haar eitjes in gangetjes legt en deze vervolgens dichtmetselt met modder of zand. Je ziet de rosse metselbij veel in de stadse omgeving en de bij leeft in tuinen. Ze zitten ook in bomen met spleten en in muren met scheurtjes erin. Als ze maar ergens iets hebben om ergens een ei in te leggen en dat dicht te maken. Ook op daken met wilde begroeiing is deze bij te vinden.";
+        } else { if (results[0].className == "red fox, Vulpes vulpes") {
+            let infoVar = document.getElementById('info');
+            infoVar.innerText = "De vos is een lid van de hondachtigen, maar heeft ongeveer de grote van een huiskat. De vos heeft over het algemeen een roodbruine vacht, maar kan ook beige tot helderrood zijn, of zilverkleurig tot zwart. Buiten dit hebben ze vaak ook een lange en pluizige staart. ";
+        } else {if (results[0].className == "") {
+            let infoVar = document.getElementById('info');
+            infoVar.innerText = "Egels zijn een belangrijk onderdeel van de kringloop. Ze eten slakken en andere insecten die vaak een plaag vormen in de tuin. Als we de tuin natuurlijker maken, herstelt de biodiversiteit."
+        }}
+    } 
     }
 }
 

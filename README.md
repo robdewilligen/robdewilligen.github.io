@@ -1,8 +1,8 @@
 # Opdracht
 
-ScreenCast Opdracht A: https://youtu.be/pdIiE6lMTOY 
+ScreenCast Opdracht A: https://youtu.be/Xo0_Iak-8zg
 
-ScreenCast Opdracht B: https://youtu.be/37bfrrJC0dw
+ScreenCast Opdracht B: https://youtu.be/a3EjKYj40K8
 
 Github Pages:https://robdewilligen.github.io/
 

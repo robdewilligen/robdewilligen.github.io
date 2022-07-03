@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Biodiversity Monitor</title>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
-	<script src="https://unpkg.com/ml5@0.1.1/dist/ml5.min.js"></script>
-	<script src="App.js"></script>
-    <link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <title>ML5 Feature Extraction</title>
 </head>
-<body class="box">
-    <h1>Biodiversity Monitor</h1>
 
-    <p id="text" class="line"> - </p>
+<body>
+    <H3>Training image classifier for Bee</H3>
 
-    <p id="bee" class="line"> Bee's =  0</p>
-    <p id="butterfly" class="line"> Butterflies = 0</p>
+    <video autoplay playsinline muted id="webcam" width="533" height="300"></video><br>
+    <div id="label"></div><br>
 
-    <p id="title"> - </p>
+    <button class="button" id="bee">Bee</button>
+    <button class="button" id="nobee">no bee</button>
+    <button class="button" id="train">Train Model</button>
+
+
+    <script src="./app.js"></script>
+
+	<div class="box">
+		<h1>10 van 010 info Cache</h1>
+
+		<p id="info" class="line"> Info </p>
+	</div>
 </body>
 </html>

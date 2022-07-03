@@ -2,10 +2,13 @@
     height: 100%;
     width: 100%;
     Background-color:rgb(172, 172, 172);
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 .line {
-    height: 25px;
+    min-height: 25px;
     width: 100%;
     background-color:white;
     border-radius: 25px;
