@@ -1,0 +1,8 @@
+#prediction-div{
+    display: none;
+}
+
+#givePrompt, #upload{
+    display: none;
+    margin: 5px;
+}
